@@ -6,7 +6,7 @@
 }
 
 body {
-    background-image: url("https://source.unsplash.com/1600x900/?landscape");
+    background-image: url("https://picsum.photos/1600/900");
     display: flex;
     justify-content: center;
     align-items: center;
@@ -34,10 +34,15 @@ outline: none;
 padding: 10px;
 border-radius: 24px;
 font-size: 20px;
-background-color: #7c7c7c2b;
+background-color: #9e9b9b2b;
 color: white;
 margin-bottom: 15px;
 width: calc(100% - 100px);
+}
+
+input:hover {
+    background-color: #7c7c7c6b;
+    transition: 0.1 ease;
 }
 
 button {
@@ -45,7 +50,8 @@ button {
     outline: none;
     padding: 10px;
     border-radius: 50px;
-    background-color: #7c7c7c2b;
+    background-color: #9e9b9b2b;
+    opacity: 1;
     cursor: pointer;
     float: right;
 }
